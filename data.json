@@ -1,0 +1,46 @@
+{
+  "sampleID": {
+    "telegram_id": "sampleID",
+    "AM_PM_timer_check": ["07:30", "17:45"],
+    "AM_PM_timer_group": ["07:45", "23:30"],
+    "groupCode": "sample group code",
+    "groupName": "sample group name",
+    "name": "Lorem Ipsum",
+    "overviewCode": "sample overview code",
+    "overviewName": "Sample COY",
+    "pin": "0000",
+    "task_list": [
+      {
+        "date_scheduled": "02/02/2021",
+        "meridies": "PM",
+        "time_scheduled": "23:30",
+        "overview_reminder": true,
+        "date_time_scheduled": "02/02/2021 23:30"
+      },
+      {
+        "date_scheduled": "03/02/2021",
+        "meridies": "AM",
+        "time_scheduled": "07:30",
+        "overview_reminder": false,
+        "date_time_scheduled": "03/02/2021 07:30"
+      },
+      {
+        "date_scheduled": "03/02/2021",
+        "meridies": "AM",
+        "time_scheduled": "07:45",
+        "overview_reminder": true,
+        "date_time_scheduled": "03/02/2021 07:45"
+      },
+      {
+        "date_scheduled": "03/02/2021",
+        "meridies": "PM",
+        "time_scheduled": "17:45",
+        "overview_reminder": false,
+        "date_time_scheduled": "03/02/2021 17:45"
+      }
+    ],
+    "uid": "sample ID",
+    "filter_list": [],
+    "careful_submission": false
+  }
+}

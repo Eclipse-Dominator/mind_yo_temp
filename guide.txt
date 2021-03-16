@@ -1,0 +1,42 @@
+start - initiate the bot or change all of your details
+help - display the help page
+update pin <new pin> - update your current profile's pin number
+update overview <overview url?> - update your profile's current overview code
+update member - update your group code as well as your pin and member id
+update safe_submit <enable?/disable?> - toggles safe submit mode
+check - check if you have submitted your temperature for today
+check <date> - check if you have submitted your temperature for set dates
+check <start_date> <end_date> - check if you have missing submissions within the range
+fill - prompt you to submit your missing temperatures by replying to a range check message
+set_reminder <AM/PM?> <time/remove?> - check if you have submitted your temperature by set time daily. use remove to remove the daily check
+submit <date?> <meridies?> <temperature?> - submit temperature 
+force_submit <date?> <meridies?> <temperature?> - submit temperature without safe checks
+check_grp - check for users' temperature submissions in your group
+check_grp <date> - check for your group's temperature submissions on set date
+check_grp <date> AM - check for your group's AM temperature submissions on set date
+check_grp <date> PM - check for your group's temperature submissions on set date
+range_grp <start date> - check for your group's submissions from start date till today
+range_grp <start> <end> - check for your group's submissions from the date range
+grp_reminder AM <time/remove> - check for your group's AM temperature submissions by set time daily. Use remove to remove the daily check.
+grp_reminder PM <time/remove> - check for your group's daily temperature submissions by set time. Use remove to remove the daily check.
+remind - type this while replying to any of the past 5 group temperature check response to send a reminder to registered users to submit their temperatures on those times if they havnt dont so
+
+skip - skip current conversation if there is any
+skipall - skip all conversation
+start - initiate the bot or change all of your details
+submit - <date?> <meridies?> <temperature?>
+force_submit - <date?> <meridies?> <temperature?>
+
+help - <xxx> display help for xxx commands
+update - <pin/overview/filter/member?/safe_submit> <new values?>
+check - <date?/sdate?> <edate?>
+set_reminder - reminds you to submit temperature at chosen timing daily if you have yet to done so
+grp_reminder - send list of ppl who havnt submit temperature daily at chosen timing
+check_grp - <date?>
+range_grp - <sdate> <edate?>
+remind - reply to grp reminder response to remind users
+fill - reply to check to fill in missing temperature
+submit - submit temperature 
+
+
+
